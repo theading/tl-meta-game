@@ -7,7 +7,10 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 public:
-    using QMainWindow::QMainWindow;
+    MainWindow(
+        QWidget *parent = nullptr,
+        Qt::WindowFlags flags = Qt::WindowFlags()
+    );
 
     virtual ~MainWindow() = default;
 };
