@@ -17,8 +17,7 @@ file(
     GLOB_RECURSE
     EXECUTABLE_SOURCES
     CONFIGURE_DEPENDS
-    ${CMAKE_SOURCE_DIR}/src
-    *.cpp
+    ${CMAKE_SOURCE_DIR}/src/*.cpp
 )
 
 qt_add_executable(
