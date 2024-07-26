@@ -1,0 +1,27 @@
+things to decide:
+  - game style
+    - thinking top down
+    - either you're at the bottom, enemy is at the top, or left/right (take advantage of 16:9 aspect ratio)
+
+things to be added:
+  - entity base class (abstraction for netcode/common properties)
+  - player class
+  - projectile class
+  - basic weapon system
+  - netcode
+
+optional things to be added:
+  - camera system (if desired)
+    - currently a fixed camera showing entire scene
+
+things to do:
+  - make scene work
+    - needs a fixed aspect ratio
+  - abstract away from qt graphics shit when possible
+    - for example, entity baseclass may contain qt abstraction paired with netcode, etc.
+
+optional things to do:
+  - new folder structure?
+    - create folder for framework (entity, scene, etc.)
+    - create folder for mechanics (not depending on framework)
+    - create folder for entity implementations (projectiles, players, etc.)
